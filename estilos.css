@@ -1,0 +1,108 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #cccccc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+a {
+  color: #70a1ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover,
+a:focus {
+  color: #1e90ff;
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+}
+
+nav ul li a {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+main ul {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* Si quieres mantener los puntos: */
+  list-style-position: inside; /* Opcional: puntos alineados con texto */
+}
+
+main li {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #ddd;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+form button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0f78d1;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
