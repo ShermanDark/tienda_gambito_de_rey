@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Sitio dedicado al ajedrez: historia, y reglas."
-    />
-    <meta name="author" content="Alexander Navas" />
-    <meta
-      name="keywords"
-      content="ajedrez, chess, reglas del ajedrez, cómo jugar al ajedrez, historia del ajedrez"
-    />
-    <title>Tienda Gambito de Rey</title>
-    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="estilos.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html#inicio">Inicio</a></li>
-          <li><a href="index.html#products">Productos</a></li>
-          <li><a href="index.html#footer">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>⏱️ Reloj Digital de Ajedrez</h1>
-      <br />
-      <p>
-        Cronómetro digital para partidas rápidas y estándar – Programable y
-        preciso Precio: S/ 160.00
-      </p>
-      <div class="galeria">
-        <img src="img/reloj1.avif" alt="Reloj 1" />
-        <img src="img/reloj2.avif" alt="Reloj 2" />
-        <img src="img/reloj3.avif" alt="Reloj 3" />
-        <img src="img/reloj4.avif" alt="Reloj 4" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sitio dedicado al ajedrez: historia, y reglas." />
+  <meta name="author" content="Alexander Navas" />
+  <meta name="keywords" content="ajedrez, chess, reglas del ajedrez, cómo jugar al ajedrez, historia del ajedrez" />
+  <title>Tienda Gambito de Rey</title>
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="index.html#products">Productos</a></li>
+        <li><a href="index.html#footer">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>⏱️ Reloj Digital de Ajedrez</h1>
+    <br />
+    <p>
+      Cronómetro digital para partidas rápidas y estándar – Programable y
+      preciso Precio: S/ 160.00
+    </p>
+    <div id="galeriaCarrusel" class="galeria carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div id="galeriaCarrusel" class="galeria carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/reloj1.avif" class="d-block w-100" alt="Reloj 1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/reloj2.avif" class="d-block w-100" alt="Reloj 2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/reloj3.avif" class="d-block w-100" alt="Reloj 3">
+          </div>
+          <div class="carousel-item">
+            <img src="img/reloj4.avif" class="d-block w-100" alt="Reloj 4">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
       </div>
+
       <h2>✅ Descripción general:</h2>
       <p>
         Este reloj digital para ajedrez está diseñado para todo tipo de
@@ -87,35 +101,30 @@
         <li>Jugadores que entrenan ritmo y tiempo</li>
       </ul>
       <br /><br />
-    </main>
-    <footer id="footer">
-      <p>&copy; 2025 Todos los derechos reservados.</p>
+  </main>
+  <footer id="footer">
+    <p>&copy; 2025 Todos los derechos reservados.</p>
 
-      <p>
-        <strong>Síguenos en nuestras redes sociales:</strong><br /><br />
+    <p>
+      <strong>Síguenos en nuestras redes sociales:</strong><br /><br />
 
-        <a
-          href="https://wa.me/+51991625851"
-          target="_blank"
-          aria-label="Contáctanos por WhatsApp"
-        >
-          <i class="fa-brands fa-whatsapp fa-2xl"></i>
-        </a>
+      <a href="https://wa.me/+51991625851" target="_blank" aria-label="Contáctanos por WhatsApp">
+        <i class="fa-brands fa-whatsapp fa-2xl"></i>
+      </a>
 
-        <a
-          href="https://www.instagram.com/alexander_navasr/?hl=es-la"
-          target="_blank"
-          aria-label="Visítanos en Instagram"
-        >
-          <i class="fa-brands fa-instagram fa-2xl"></i>
-        </a>
-      </p>
+      <a href="https://www.instagram.com/alexander_navasr/?hl=es-la" target="_blank"
+        aria-label="Visítanos en Instagram">
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+      </a>
+    </p>
 
-      <p>
-        <strong>Sobre el sitio web:</strong><br /><br />
-        <a href="que-es-ajedrez.html">¿Qué es el ajedrez?</a>
-        <a href="como-se-juega.html">¿Cómo se juega?</a>
-      </p>
-    </footer>
-  </body>
+    <p>
+      <strong>Sobre el sitio web:</strong><br /><br />
+      <a href="que-es-ajedrez.html">¿Qué es el ajedrez?</a>
+      <a href="como-se-juega.html">¿Cómo se juega?</a>
+    </p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
